@@ -12,7 +12,7 @@ def main():
     print "Building index..."
     build_index = os.path.join(SCRIPTS_DIR, "build-index.py")
 
-    os.system('{} {}'.format(build_index, UNIVERSE_DIR))
+    os.system('python {} {}'.format(build_index, UNIVERSE_DIR))
     print('OK')
 
     print('Compressing index...')
