@@ -147,6 +147,18 @@
           "minimum": 32.0,
           "type": "number"
         },
+        "initial-executor-cpus": {
+          "default": 0.25,
+          "description": "Initial CPU shares allocated for the executor container.",
+          "minimum": 0.01,
+          "type": "number"
+        },
+        "initial-executor-mem": {
+          "default": 128.0,
+          "description": "Initial memory (MB) allocated for the executor container.",
+          "minimum": 128.0,
+          "type": "number"
+        },
         "mesos-role": {
           "description": "Mesos role for this framework.",
           "type": "string"
