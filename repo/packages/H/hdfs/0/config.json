@@ -37,7 +37,7 @@
       "ld-library-path": {
         "desription": "Library path",
         "type": "string",
-        "default": "/opt/mesosphere/lib"
+        "default": "/usr/lib"
       }
      },
      "required": [
