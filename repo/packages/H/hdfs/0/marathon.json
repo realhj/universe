@@ -2,7 +2,7 @@
   "id": "hdfs",
   "cpus": 1,
   "mem": 1024,
-  "disk": 1000,
+  "disk": 500,
   "instances": 1,
   "env": {
     "LD_LIBRARY_PATH": "{{hdfs.ld-library-path}}" 
